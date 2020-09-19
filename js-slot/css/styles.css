@@ -1,0 +1,59 @@
+body{
+    background: #cccccc;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial,sans-serif;
+}
+
+main{
+    width: 300px;
+    background: #dddddd;
+    padding: 20px;
+    border: 4px solid #eeeeee;
+    margin: 16px auto;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel img{
+    width: 90px;
+    height: 110px;
+    margin-bottom: 4px;
+}
+
+.stop{
+    cursor: pointer;
+    width: 90px;
+    height: 32px;
+    background: red;
+    box-shadow: 0 4px 0 darkred;
+    border-radius: 16px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    color: #eeeeee;
+    user-select: none;
+}
+
+#spin{
+    cursor: pointer;
+    width: 280px;
+    height: 36px;
+    background: green;
+    box-shadow: 0 4px 0 darkgreen;
+    border-radius: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #eeeeee;
+    user-select: none;
+    margin: auto;
+}
+
+.unmatched{
+    opacity: 0.6;
+}
+
+.inactive{
+    opacity: 0.6;
+}
