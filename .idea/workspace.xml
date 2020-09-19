@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="615684db-9bbd-4c15-8d5a-102050d9dddd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js-quizv3/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-quizv3/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-touch-the-number/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-touch-the-number/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,11 +118,11 @@
     </state>
     <state x="297" y="116" key="SettingsEditor/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1600473663385" />
     <state x="221" y="89" key="SettingsEditor/1440.23.1024.745/0.0.1440.900@0.0.1440.900" timestamp="1600032343860" />
-    <state x="418" y="176" width="703" height="612" key="find.popup" timestamp="1600340924721">
+    <state x="418" y="176" width="703" height="612" key="find.popup" timestamp="1600495387805">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="418" y="176" width="703" height="612" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1600340924721" />
-    <state x="418" y="176" width="673" height="612" key="find.popup/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1600160619990" />
+    <state x="418" y="176" width="703" height="612" key="find.popup/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1600495387805" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1600479552190">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
