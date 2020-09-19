@@ -1,0 +1,104 @@
+body {
+    background: bisque;
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    user-select: none;
+}
+
+.container {
+    width: 400px;
+    margin: 8px auto;
+    background: white;
+    border-radius: 4px;
+    padding: 16px;
+    position: relative;
+}
+
+#question {
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+#choices {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+#choices > li {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#choices > li:hover {
+    background: cornsilk;
+}
+
+#choices > li.correct {
+    background: palegreen;
+    border-color: lightgreen;
+    color: green;
+    font-weight: bold;
+}
+
+#choices > li.correct::after {
+    content: '...correct!';
+}
+
+#choices > li.wrong {
+    background: lightpink;
+    border-color: pink;
+    color: palevioletred;
+    font-weight: bold;
+}
+
+#choices > li.wrong::after {
+    content: '...wrong';
+}
+
+#btn, #result > a {
+    background: lightskyblue;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 0 cornflowerblue;
+}
+
+#btn.disabled {
+    background: darkgray;
+    box-shadow: 0 4px 0 gray;
+    opacity: 0.4;
+}
+
+#result {
+    position: absolute;
+    width: 300px;
+    background: whitesmoke;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 4px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+#result.hidden {
+    transform: translateY(-500px);
+}
+
+#result > p {
+    font-size: 24px;
+}
+
+#result > a {
+    display: block;
+    text-decoration: none;
+}
